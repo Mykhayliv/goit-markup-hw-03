@@ -2,17 +2,11 @@ html {
   box-sizing: border-box;
 }
 /* Filter */
-.section-filter {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 94px;
-}
 .section-filter .filter {
-  color: var(--accent-white-color);
-  font-size: 0px;
+  padding-top: 94px;
+}
+.section-filter .filter-flex {
+  font-size: 0;
 }
 .section-filter .filter-title {
   display: flex;
@@ -43,17 +37,11 @@ html {
   background: var(--bg-color-accent);
 }
 /* Works */
-.section-work {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 56px;
-  margin-bottom: 94px;
-  justify-content: center;
-}
 .section-work .work {
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
+.section-work .work-flex {
   color: var(--accent-white-color);
   font-size: 0px;
 }
@@ -67,10 +55,28 @@ html {
   margin-bottom: 30px;
 
   background: #ffffff;
+  box-sizing: border-box;
+}
+.section-work .card {
+  width: 370px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+}
+.section-work .card-image {
+  display: block;
+}
+.section-work .card-content {
+  padding: 20px 24px;
+  background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
+/* border: 1px solid #eeeeee;
+border-radius: 5px; */
+
 .section-work .number:nth-child(3n) {
   margin-right: 0;
 }
@@ -83,6 +89,8 @@ html {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
+
+  margin-top: 20px;
 }
 .section-work .work-text {
   font-weight: 400;
@@ -90,4 +98,5 @@ html {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-top: 4px;
 }

@@ -14,6 +14,7 @@
   <body>
     <!--Шапка сайта-->
     <header class="page-header">
+      <div class="header container"> 
       <nav class="site-nav">
         <a href="./index.html" class="logo">
           <span class="logo-accent">Web</span> Studio</a
@@ -34,16 +35,20 @@
             ><img src="./images/Vector.svg" alt="" />+38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
     </header>
     <main>
       <!--Герой-->
       <section class="hero">
+        <div class="container hero">
         <h1 class="hero-title">эффективные решения</br> для вашего бизнеса</h1>
         <button class="button-primary" type="button">Заказать услугу</button>
+        </div>
       </section>
       <!--Особенности-->
       <section class="section-features">
-        <h2 class="features">Особенности</h2>
+        <div class="container features">
+        <h2 class="features-text">Особенности</h2>
         <ul class="features-title list">
           <li class="iten">
             <span class="iten-img"><img class="img" src="./images/antenna.svg" alt="antenna" /></span>
@@ -78,53 +83,57 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <!--Чем мы занимаемся-->
       <section class="section-services">
-        <h2 class="services">Чем мы занимаемся</h2>
-        <div class="container-services">
-        <ul class="section-title list">
+        <div class="container services">
+        <h2 class="services-text">Чем мы занимаемся</h2>
+        <div class="services-list">
+        <ul class="services-title list">
           <li>
             <a href=""
               ><img
                 src="./images/notebook.jpg"
                 alt="notebook"
-                width="380"
+                width="370"
                 height="294"
             /></a>
           </li>
           <p class="title-text">Десктопные приложения</p>
         </ul>
-        <ul class="section-title list">
+        <ul class="services-title list">
           <li>
             <a href=""
               ><img
                 src="./images/telefone.jpg"
                 alt="telefone"
-                width="380"
+                width="370"
                 height="294"
             /></a>
             <p class="title-text">Мобильные приложения</p>
           </li>
         </ul>
-        <ul class="section-title list">
+        <ul class="services-title list">
           <li>
             <a href=""
               ><img
                 src="./images/ekran.jpg"
                 alt="display"
-                width="380"
+                width="370"
                 height="294"
             /></a>
             <p class="title-text">Дизайнерские решения</p>
           </li>
         </ul>
         </div>
+        </div>
       </section>
       <!--Наша команда-->
-      <section class="team">
+      <section class="section-team">
+        <div class="container team">
         <h2 class="team-title">Наша команда</h2>
-        <div class="container-team">
+        <div class="team-flex">
         <ul class="team-list list">
           <li>
             <img
@@ -262,10 +271,12 @@
           </li>
         </ul>
         </div>
+        </div>
       </section>
       <!--Постоянные клиенты-->
       <section class="section-company">
-        <h2 class="company">Постоянные клиенты</h2>
+        <div class="container company">
+        <h2 class="company-text">Постоянные клиенты</h2>
         <ul class="company-list list">
           <li class="iten">
             <a href=""><img class="iten-img" src="./images/logo.svg" alt="logo company" /></a>
@@ -286,16 +297,17 @@
             <a href=""><img class="iten-img" src="./images/logo6.svg" alt="logo company 6" /></a>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <!--Футер-->
     <footer class="futer">
-      <div class="container">
+      <div class="container futer">
       <div class="futer-address">
         <a href="./index.html" class="logo"> <span class="logo-accent">Web</span> Studio</a>
-        <address>
-          <a href="" class="address">г. Киев, пр-т Леси Украинки, 26</a> <br />
-          <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a> <br />
+        <address class="address-contact">
+          <a href="" class="address">г. Киев, пр-т Леси Украинки, 26</a>
+          <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a>
           <a href="tel:380961111111" class="contact">+38 096 111 11 11</a>
         </address>
       </div>
@@ -330,7 +342,7 @@
       </div>
       </div>
       <!--Копірайтер-->
-      <p class="copyright">2020 | Developed by GoIT Students</p>
+      <p class="copyright container">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
